@@ -1,0 +1,48 @@
+:host ::ng-deep .logo {
+  text-align: center;
+  height: 64px;
+  border-radius: 6px;
+  margin: 16px;
+}
+:host ::ng-deep .logo img {
+  height: 64px;
+  transition: height 0.15s cubic-bezier(0.215, 0.61, 0.355, 1)
+}
+::ng-deep .ant-layout{
+  height: 100%;
+}
+::ng-deep .cms-sider.ant-menu-inline .ant-menu-item{
+  font-size: 16px;
+}
+::ng-deep .cms-sider.ant-menu-inline .ant-menu-submenu-inline .ant-menu-submenu-title{
+  font-size: 16px;
+}
+:host ::ng-deep .ant-layout-sider-collapsed .nav-text {
+  display: none;
+}
+:host ::ng-deep .ant-layout-sider-collapsed .logo {
+  height: 32px;
+}
+:host ::ng-deep .ant-layout-sider-collapsed .logo img {
+  height: 32px;
+}
+:host ::ng-deep .ant-layout-sider-collapsed .ant-menu-submenu-title:after {
+  display: none;
+}
+
+:host ::ng-deep .ant-layout-sider-collapsed .anticon {
+  font-size: 24px;
+  margin-left: 4px;
+}
+
+:host ::ng-deep .trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 16px;
+  cursor: pointer;
+  transition: color .3s;
+}
+
+:host ::ng-deep .trigger:hover {
+  color: #108ee9;
+}
